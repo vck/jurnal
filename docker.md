@@ -11,8 +11,14 @@ docker rm $(docker ps -a -q)
 
 menghubungkan client mysql dengan docker, ganti "localhost" dengan "127.0.0.1"
 
-- Python Dockerfile
+- MySQL Dockerfile
 
+```
+FROM mysql:8.0.18
+ENV MYSQL_DATABASE strobo
+```
+
+- Python Dockerfile
 
 ```
 FROM python:3.7-buster
