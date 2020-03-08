@@ -10,3 +10,28 @@ docker rm $(docker ps -a -q)
 - masalah mysql dengan docker
 
 menghubungkan client mysql dengan docker, ganti "localhost" dengan "127.0.0.1"
+
+- Python Dockerfile
+
+
+```
+FROM python:3.7-buster
+ADD ./src $HOME/src
+RUN chmod +x /src/*
+RUN pip instal -r /src/requirements.txt
+```
+
+build
+
+```
+ docker build -t python -f Dockerfile.python .
+```
+
+run 
+
+
+```
+docker run -it python bash
+```
+
+
