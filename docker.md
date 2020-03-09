@@ -40,4 +40,8 @@ run
 docker run -it python bash
 ```
 
+- hubungkan satu docker container dengan docker container lain menggunakan links 
+
+https://docs.docker.com/compose/networking/#links
+
 
