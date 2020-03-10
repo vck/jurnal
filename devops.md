@@ -4,7 +4,7 @@ gimana caranya menghubungkan kubectl ke cluster di gcp
 
 - install kubectl
 
-- set project id `gcloud config set project alms-1118`
+- set project id `gcloud config set project <project id>`
 
 - set compute zone `gcloud config set compute/zone asia-east1-c`
 
