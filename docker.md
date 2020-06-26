@@ -44,7 +44,11 @@ docker run -it python bash
 
 https://docs.docker.com/compose/networking/#links
 
-- hapus semua image & volume
+- cleanup docker-compose 
+
+```
+docker-compose down -v --rmi all --remove-orphans
+```
 
 ```
 docker system prune -a --volumes
