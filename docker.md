@@ -1,13 +1,15 @@
-catatan docker
+# catatan docker
 
-- stop dan hapus container
+stop dan hapus container
+------------------------
 
 ```
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
-- masalah mysql dengan docker
+masalah mysql dengan docker
+----------------------------
 
 menghubungkan client mysql dengan docker, ganti "localhost" dengan "127.0.0.1"
 
@@ -40,11 +42,21 @@ run
 docker run -it python bash
 ```
 
-- hubungkan satu docker container dengan docker container lain menggunakan links 
+pgsql di docker
+---------------
+
+```
+docker run --rm   --name pg-docker -e POSTGRES_PASSWORD=docker -d -p 5432:5432 -v $HOME/docker/volumes/postgres:/var/lib/postgresql/data  postgres
+
+```
+
+menghubungkan satu docker container dengan docker container lain menggunakan links 
+----------------------------------------------------------------------------------
 
 https://docs.docker.com/compose/networking/#links
 
-- cleanup docker-compose 
+cleanup docker-compose 
+-----------------------
 
 ```
 docker-compose down -v --rmi all --remove-orphans
