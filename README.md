@@ -8,6 +8,7 @@
 - [hubungkan-kubectl-ke-cluster-gcp](hubungkan-kubectl-ke-cluster-gcp.md)
 - [mysql](mysql.md)
 - [nmap](nmap.md)
+- [pandas](pandas.md)
 - [pantau-proses-dengan-supervisor](pantau-proses-dengan-supervisor.md)
 - [psql-debian](psql-debian.md)
 - [systemd-service](systemd-service.md)
