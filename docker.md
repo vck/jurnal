@@ -65,3 +65,11 @@ docker-compose down -v --rmi all --remove-orphans
 ```
 docker system prune -a --volumes
 ```
+
+install docker
+--------------
+
+- curl https://get.docker.com/ -o get-docker.sh
+- bash get-docker.sh
+- sudo gpasswd -a $USER docker
+- sudo systemctl restart docker
