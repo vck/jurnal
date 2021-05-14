@@ -1,3 +1,23 @@
+setup dependencies
+------------------
+
+1. npm install --global expo-cli 
+
+2. expo init myawesomeapp
+
+3. cd myawesomeapp
+
+4. expo init
+
+create frontend
+---------------
+
+props
+-----
+
+manage state
+------------
+
 centerise components
 --------------------
 
