@@ -10,3 +10,7 @@ git diff --cached
 
 - git rm .gitattributes
 - git stash
+
+# cache git cred for given timeout
+
+git config --global credential.helper 'cache --timeout=3600'
