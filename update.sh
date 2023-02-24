@@ -14,7 +14,3 @@ for d in *.md;
             fi
     done    
     echo "done!"
-
-git add .
-git commit -m 'update index'
-git push origin master
