@@ -1,4 +1,7 @@
-## array of objects to object value
+# Notes on JavaScript
+
+array of objects to object value
+
 
 ```
 > a = [{a: 1}, {a: 1},{a: 1},{a: 1},{a: 1},{a: 1},{a: 1},{a: 1},{a: 1},]
