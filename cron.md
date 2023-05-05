@@ -1,0 +1,1 @@
+- run task every 3rd day at 9 PM: `0 21 */3 * *	`
